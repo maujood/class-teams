@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upcoming_Classes</fullName>
+    <columns>NAME</columns>
+    <columns>Description__c</columns>
+    <columns>Proposed_Date_Time__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Proposed_Date_Time__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>Approved__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Upcoming Classes</label>
+</ListView>

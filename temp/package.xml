@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>classteams</fullName>
+    <description>Demonstrates Team Member functionality for classes</description>
+    <types>
+        <members>ClassTeamMemberSharingRecalculation</members>
+        <members>ClassTeamMemberSharingRecalculationTest</members>
+        <members>ClassTeamMemberTriggerHandler</members>
+        <members>ClassTeamMemberTriggerHandlerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>ClassTrigger</members>
+        <members>Class_Team_Member</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Class_Team_Member__c.Access_Level__c</members>
+        <members>Class_Team_Member__c.Class__c</members>
+        <members>Class_Team_Member__c.Team_Member__c</members>
+        <members>Class__c.Approved__c</members>
+        <members>Class__c.Description__c</members>
+        <members>Class__c.Maximum_Enrollment__c</members>
+        <members>Class__c.Proposed_Date_Time__c</members>
+        <members>Enrollment__c.Class__c</members>
+        <members>Enrollment__c.Student__c</members>
+        <members>Student__c.Email__c</members>
+        <members>Student__c.Phone__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Class_Team_Member__c</members>
+        <members>Class__c</members>
+        <members>Enrollment__c</members>
+        <members>Student__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Class_Record_Page</members>
+        <members>Student_Record_Page1</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Class_Team_Member__c-Class Team Member Layout</members>
+        <members>Class__c-Class Layout</members>
+        <members>Enrollment__c-Enrollment Layout</members>
+        <members>Student__c-Student Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Class__c.All</members>
+        <members>Class__c.Upcoming_Classes</members>
+        <members>Student__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Class__c.Class_Team__c</members>
+        <name>SharingReason</name>
+    </types>
+    <version>50.0</version>
+</Package>
