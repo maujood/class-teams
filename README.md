@@ -1,4 +1,5 @@
 ## How to run this project
+First, authorize with a dev hub and then run the following commands:
 
     sfdx force:org:create -s -f config/project-scratch-def.json -a  myscratchorg
     sfdx force:source:push
